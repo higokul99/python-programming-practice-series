@@ -9,8 +9,8 @@ def calculate_annual_hike(current_ctc: int, hikes: list):
 
 if __name__ == '__main__':
     print("=====Calculating Possible New CTC after Hike=====")
-    current_ctc = 525000
-    hikes = [8,5]
+    current_ctc = 524000
+    hikes = [7.8,4.8]
     result:list = calculate_annual_hike(current_ctc, hikes)
     i = 0
     for res in result:
