@@ -16,3 +16,18 @@ if og == reverse:
     print("Palindrome")
 else:
     print("Not Palindrome")
+
+
+"""
+Understanding carry
+"""
+
+num1 = 5
+num2 = 11
+
+total = num1 + num2
+
+print("Total: ",total)
+
+carry = total // 10
+print("Carry: ", carry)
